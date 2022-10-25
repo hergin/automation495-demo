@@ -1,7 +1,5 @@
 exports.fibonacci = function(n) {
 
-    if(n<0)
-       throw new TypeError("no negatives for fib");
 
     if(n==0 || n==1)
         return n;
